@@ -79,11 +79,16 @@ List<Build> BuildsByBuildLocator(BuildLocator locator);
 List<Build> AllBuildsSinceDate(DateTime date);
 List<Build> AllBuildsOfStatusSinceDate(DateTime date, BuildStatus buildStatus);
 List<Build> NonSuccessfulBuildsForUser(string userName);
+bool TriggerServerInstanceBackup(string fileName);
+bool CreateUser(string username, string name, string email, string password);
+bool AddPassword(string username, string password);
+
 ```
 
 ##Credits
 
-* Copyright (c) 2011 Paul Stack (@stack72)
+* Copyright (c) 2012 Paul Stack (@stack72)
 * Thanks to the following contributors:
 * Barry Mooring (@codingbadger)
 * Simon Bartlett (@sibartlett)
+* Mike Larah (@MikeLarah)
