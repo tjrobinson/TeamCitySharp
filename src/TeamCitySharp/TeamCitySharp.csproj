@@ -38,6 +38,7 @@
       <HintPath>..\..\packages\EasyHttp.1.4.4.0\lib\net40\EasyHttp.dll</HintPath>
     </Reference>
     <Reference Include="JsonFx">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\JsonFx.2.0.1106.2610\lib\net40\JsonFx.dll</HintPath>
     </Reference>
     <Reference Include="System" />
